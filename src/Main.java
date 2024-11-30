@@ -10,8 +10,8 @@ public class Main {
         while (total <= 2459000) {
             numberOfMonths = numberOfMonths + 1;
             total = total + 15000;
+            System.out.println("Месяц " + numberOfMonths + ", сумма накоплений равна " + total);
         }
-        System.out.println("Месяц " + numberOfMonths + ", сумма накоплений равна " + total);
 
         System.out.println("Задача 2");
 
